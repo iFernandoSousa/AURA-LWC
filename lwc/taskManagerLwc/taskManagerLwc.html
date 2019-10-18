@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title={Title}>
+        <div slot="actions">
+                <lightning-icon class="lightning-link" icon-name="utility:new" alternative-text="New Task" size="small"></lightning-icon>
+        </div>
+
+        <template if:true={HasTasks}>
+            <template for:each={Tasks} for:item="task">
+                <c-task-card-lwc key={task.Id} -id={task.Id} -description={task.Subject} ontaskeventclick={handleTaskEventClick}></c-task-card-lwc>
+            </template>
+        </template>
+    </lightning-card>
+
+</aura:component>
+</template>

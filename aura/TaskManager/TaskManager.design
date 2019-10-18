@@ -1,0 +1,3 @@
+<design:component label="Task Manager">
+    <design:attribute name="Title" label="Title" description="The tile of Task List" />
+</design:component>

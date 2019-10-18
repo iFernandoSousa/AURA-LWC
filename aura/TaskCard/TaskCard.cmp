@@ -1,0 +1,12 @@
+<aura:component>
+    <aura:attribute name="Id" type="String" />
+    <aura:attribute name="Description" type="String" />
+    <aura:registerEvent name="TaskEventClick" type="c:TaskEventClick" />
+
+    <lightning:card title="{!v.Description}">
+        <aura:set attribute="actions">
+            <lightning:icon class="lightning-link" iconName="utility:edit" alternativeText="Delete" size="x-small" onclick="{!c.editClick}"></lightning:icon>
+            <lightning:icon class="lightning-link" iconName="utility:recycle_bin_empty" alternativeText="Delete" size="x-small" onclick="{!c.deleteClick}"></lightning:icon>
+        </aura:set>
+    </lightning:card>
+</aura:component>
