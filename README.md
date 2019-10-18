@@ -4,6 +4,8 @@
 
 **PPT utilizado no Webinar:** http://bit.ly/2BnCIgy
 
+-----------------------------------------------------------
+
 Pessoal, o motivo do Deployment não ter funcionado foi porque eu utilizei o mesmo nome do componente do AURA e a Salesforce não permite que você tenha AURA e LWC com o mesmo nome :/ "My bad".
 
 Sobre as propriedades, essas são as configurações necessárias para o seu metadata:
@@ -23,6 +25,8 @@ Para trocar o nome do componente para algo mais amigável, e uma descrição, te
     <description>Allow Create, Edit and Delete Tasks with just your Subject</description>
 ```
 
+
+-----------------------------------------------------------
 
 
 **Links de referência:**
