@@ -1,6 +1,7 @@
 # AURA-LWC
 
 **Vídeo completo em:** http://bit.ly/salesforcelwc
+
 **PPT utilizado no Webinar:** http://bit.ly/2BnCIgy
 
 Pessoal, o motivo do Deployment não ter funcionado foi porque eu utilizei o mesmo nome do componente do AURA e a Salesforce não permite que você tenha AURA e LWC com o mesmo nome :/ "My bad".
